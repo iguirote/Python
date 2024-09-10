@@ -1,0 +1,35 @@
+print("Utilizando FOR : ")
+
+frutas = ["maçã", "banana", "laranja"]
+
+
+for fruta in frutas:
+    print(fruta)
+
+print("\nUtilizando WHILE :")
+
+contador = 0
+
+while contador < 5:
+    print(contador)
+    contador = contador + 1
+
+contador = 0
+
+print("\nControle de loops com break : ")
+
+while True:
+
+    print(contador)
+    contador += 1
+
+    if contador == 5:
+        break
+
+print("\nControle de loops com continue : ")
+
+for i in range(10):
+
+    if i % 2 != 0:
+        continue
+    print(i)
